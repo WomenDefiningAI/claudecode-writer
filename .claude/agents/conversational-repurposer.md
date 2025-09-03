@@ -2,7 +2,7 @@
 name: conversational-repurposer
 description: Specialist in creating conversational content for social media and podcast formats
 tools: Read, Write, Edit, Grep, Glob, WebSearch
-model: claude-3-5-sonnet-20241022
+model: opus
 color: orange
 ---
 

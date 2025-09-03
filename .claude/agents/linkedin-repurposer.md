@@ -2,7 +2,7 @@
 name: linkedin-repurposer
 description: Specialist in transforming content for LinkedIn's professional networking environment
 tools: Read, Write, Edit, Grep, Glob, WebSearch
-model: claude-3-5-sonnet-20241022
+model: opus
 color: blue
 ---
 

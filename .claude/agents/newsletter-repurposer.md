@@ -2,7 +2,7 @@
 name: newsletter-repurposer
 description: Specialist in adapting content for email newsletter engagement
 tools: Read, Write, Edit, Grep, Glob, WebSearch
-model: claude-3-5-sonnet-20241022
+model: opus
 color: green
 ---
 
