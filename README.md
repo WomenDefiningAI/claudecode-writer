@@ -265,3 +265,13 @@ Once you're comfortable with the basic workflow:
 - Adapt the agents for other platforms you use
 
 Happy writing! 🚀
+
+## Contributing
+
+We welcome contributions that improve the writing quality and research capabilities of this template! See our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+
+- How to improve agent prompts and workflows
+- Testing requirements and submission process  
+- What kinds of contributions we're looking for
+
+Help make this system better for content creators everywhere!
