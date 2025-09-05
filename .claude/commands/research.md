@@ -31,3 +31,13 @@ Provides a research brief with:
 - **Audience Questions**: What people are actually asking about this topic
 - **Platform Hooks**: Compelling angles for each repurposing agent
 - **Contrarian Elements**: Unexpected or challenging viewpoints to explore
+
+## File Management
+After completing the research, automatically save the brief to:
+- **File Location**: `research/research-brief-[topic-slug]-[YYYY-MM-DD].md`
+- **File Format**: Markdown with clear sections and headers
+- **Naming Convention**: Use lowercase, hyphenated topic slug and current date
+
+Example: `research/research-brief-remote-work-productivity-2024-01-15.md`
+
+This ensures all research briefs are systematically stored and easily referenced for future writing projects.

@@ -49,6 +49,8 @@ No coding required. No complex setup. Just add your examples and start writing.
 
 ### 2. Install Claude Code
 
+Visit the official site: [anthropic.com/claude-code](https://www.anthropic.com/claude-code)
+
 **Mac:**
 ```bash
 # Install via Homebrew
