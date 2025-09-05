@@ -1,4 +1,4 @@
-# Claude Code Writing Partner
+# Claude Code Writing System
 
 Transform your ideas into multi-platform content with AI assistance. This template helps you research topics, write comprehensive articles, and automatically repurpose them for LinkedIn, newsletters, and social media.
 
