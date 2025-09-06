@@ -6,12 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## System Overview
 This workspace transforms ideas into multi-format content:
-1. Research → Long-form article → Platform-specific versions
+1. Raw notes → Theme extraction → Research → Long-form article → Platform-specific versions
 2. All brand/voice guidelines live in @context/
 3. Agents handle platform optimization
 
 ## Workflow Commands
-- `/research [topic]` - Develop and refine ideas
+- `/extract-themes` - Analyze raw notes in /rawnotes to identify patterns and content opportunities
+- `/research [topic]` - Develop and refine ideas from themes or new topics
 - `/write` - Create comprehensive article
 - Auto-generates: LinkedIn, Newsletter, Twitter/X, Podcast Q&A
 

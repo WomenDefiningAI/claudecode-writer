@@ -1,0 +1,21 @@
+# Raw Notes Folder
+
+This folder stores unprocessed ideas, voice transcripts, meeting notes, and thought snippets.
+
+## Usage Guidelines
+- Add notes freely without worrying about organization
+- Use descriptive filenames: `2024-01-15-morning-thoughts.md`
+- Run `/extract-themes` to analyze all notes for patterns and opportunities
+- Focus on capture over categorization
+
+## File Types Welcome
+- Voice transcripts and recordings
+- Meeting insights and conversation snippets  
+- Random thoughts and idea fragments
+- Article seeds and partial concepts
+- Industry observations and trends
+
+## Organization Tips
+- Date-based naming helps track idea evolution
+- Monthly folders optional: `2024-01/`, `2024-02/`
+- No strict structure required - let ideas flow naturally

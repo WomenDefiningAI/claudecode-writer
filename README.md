@@ -19,9 +19,11 @@ No coding required. No complex setup. Just add your examples and start writing.
 
 ## The Magic Workflow
 
-1. **Research Once**: `/research [your topic]` finds trends, data, and unique angles from your trusted sources
-2. **Write Once**: `/write` creates a comprehensive article in your voice
-3. **Publish Everywhere**: Specialized agents automatically transform your article into:
+1. **Capture Ideas**: Drop unorganized thoughts, voice notes, and fragments into `/rawnotes`
+2. **Extract Themes**: `/extract-themes` finds patterns and develops coherent angles from your raw notes
+3. **Research Once**: `/research [your topic]` finds trends, data, and unique angles from your trusted sources
+4. **Write Once**: `/write` creates a comprehensive article in your voice
+5. **Publish Everywhere**: Specialized agents automatically transform your article into:
    - LinkedIn posts with professional hooks and engagement drivers
    - Newsletter sections with compelling subject lines and personal touches
    - Twitter threads that maximize shares and conversations
@@ -95,9 +97,23 @@ The system is now ready. No additional setup needed - the commands and agents ar
 
 ## Writing Workflow
 
-### Step 1: Research Your Topic
+### Step 1: Capture Raw Ideas
+Add unstructured thoughts, voice notes, meeting insights, and idea fragments to the `/rawnotes` folder. No organization needed - just capture everything.
+
+### Step 2: Extract Themes 
 ```
-/research sustainable fashion trends
+/extract-themes
+```
+
+Claude will:
+- Analyze all your raw notes for patterns
+- Identify recurring themes and interests
+- Surface your unique perspective on topics
+- Create structured content briefs ready for development
+
+### Step 3: Research Your Topic
+```
+/research [theme from extraction or new topic]
 ```
 
 Claude will:
@@ -107,7 +123,7 @@ Claude will:
 - Suggest unique angles
 - Provide a research brief
 
-### Step 2: Write Your Article
+### Step 4: Write Your Article
 ```
 /write [paste the research brief or topic]
 ```
@@ -118,7 +134,7 @@ Claude will:
 - Match your voice from examples
 - Structure for readability
 
-### Step 3: Repurpose for Each Platform
+### Step 5: Repurpose for Each Platform
 
 **LinkedIn Post:**
 ```
@@ -137,19 +153,33 @@ Use the conversational-repurposer agent for Twitter posts: [paste article]
 
 ## Complete Example Walkthrough
 
-Let's say you want to write about "remote work productivity":
+Let's say you've been collecting scattered thoughts about remote work:
 
-### 1. Research Phase
-**You:** `/research remote work productivity tips for 2024`
+### 1. Raw Notes Collection
+You've added various files to `/rawnotes`:
+- `morning-thoughts-remote-work.md` - Random observations about productivity
+- `client-call-notes.md` - Insights from consulting calls
+- `voice-transcript-commute.md` - Ideas recorded during walks
+
+### 2. Theme Extraction Phase  
+**You:** `/extract-themes`
+
+**Claude responds with:**
+- **Core Theme**: "Productivity advice is failing remote workers"
+- **Unique Angle**: Focus on energy management vs. time management
+- **Supporting Evidence**: Your client stories and personal observations
+- **Content Opportunity**: Challenge traditional productivity advice with practical alternatives
+
+### 3. Research Phase
+**You:** `/research productivity advice failing remote workers energy management`
 
 **Claude responds with:**
 - Current trends (hybrid work, AI tools, async communication)
-- Gap analysis (missing: mental health aspect)
-- Unique angle (productivity isn't about time management anymore)
+- Gap analysis (missing: energy vs. time perspective)
 - Supporting data from recent studies
 - Platform-specific hooks
 
-### 2. Writing Phase
+### 4. Writing Phase
 **You:** `/write` *[paste the research brief]*
 
 **Claude creates:**
@@ -159,7 +189,7 @@ A 1,200-word article titled "Why Productivity Advice is Failing Remote Workers (
 - Current data and examples
 - Your authentic voice and perspective
 
-### 3. Repurposing Phase
+### 5. Repurposing Phase
 
 **LinkedIn Version:**
 **You:** Use the `linkedin-repurposer` agent on this article
@@ -241,6 +271,7 @@ writing-workspace/
 ├── context/
 │   ├── writing-examples.md  # Your voice samples
 │   └── research-sources.md  # Priority sources
+├── rawnotes/                 # Unprocessed ideas & voice notes
 └── drafts/                  # Your work in progress
 ```
 
